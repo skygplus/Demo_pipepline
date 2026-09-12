@@ -6,7 +6,7 @@ app = Flask(__name__)
 def home():
     return jsonify({
         "status": "success",
-        "message": "Hello from your Jenkins CI/CD Flask App!"
+        "message": "Hello from your Jenkins CI/CD Flask App1!"
     })
 
 @app.route("/health")
